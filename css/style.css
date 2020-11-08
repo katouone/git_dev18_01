@@ -1,0 +1,374 @@
+/* ここから下に記載していく */
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    color:#222222;
+    font-size: 1.6rem;
+    font-family: "Helvetica","YuGo-Medium","HiraKakuProN", sans-serif;
+}
+
+.text-aligncenter{
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3{
+    margin: 60px 0 30px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color:#ffd61a;
+    text-transform: uppercase;
+}
+
+.subtitle{
+    margin: 30px 0 60px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 21px 0;
+    color: white;
+    font-size: 18px;
+    width: 300px;
+    border: none;
+    /* height: 60px; */
+    background-color: #ffd61a;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+
+/* -------------
+   ヘッダー関連
+   ------------- */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 121px;
+}
+
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.nav__item{
+    font-size: 21px;
+    margin-right: 50px;
+}
+
+
+/* -------------
+   mainvisual関連
+   ------------- */
+
+.mainvisual {
+    height: 500px;
+    background: url(../img/mainbg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.mainvisual__titlebox{
+    margin: auto;
+}
+
+.mainvisual__title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+}
+
+.mainvisual__subtitle {
+    margin: 30px 0 0;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+
+
+
+/* -------------
+   about関連
+   ------------- */
+
+.about__title{
+    margin: 60px 0 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color:#ffd61a;
+
+}
+.about__subtitle{
+    margin: 30px 0 60px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.about__text{
+    margin: 40px 0 0;
+    text-align: center;
+    line-height: 30px;
+}
+
+.about__imagebox{
+    display: flex;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.about__imagebox p{
+    width: 25%;
+}
+
+.about__imagebox p img{
+    width: 100%;
+}
+
+/* -------------
+   course関連
+   ------------- */
+
+.course__maintext{
+    text-align: center;
+    margin-bottom: 60px;
+    line-height: 30px;
+}
+
+.course__boxform{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course__imgbox{
+    width: 50%;
+}
+
+.course__textbox{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+
+.course__imgbox img{
+    width: 100%;
+}
+
+
+.course__textboxsmallright{
+    margin-left: 50px;
+}
+
+.course__textboxsmallleft{
+    margin-right: 50px;
+    margin-left: auto;
+}
+
+
+.course__textboxtitle{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.course__textboxtext{
+    margin-top: 40px;
+    width: 440px;
+    line-height: 30px;
+}
+
+
+
+
+
+
+/* -------------
+   news関連
+   ------------- */
+
+.news__box {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: 60px auto 0;
+}
+
+.news__itemtime{
+    margin: 30px 0 24px;
+}
+
+.news__itemtext{
+    line-height: 30px;
+}
+
+
+.news__item{
+    width: 300px;
+}
+
+
+
+.news__more{
+    margin-top: 60px;
+}
+
+/* -------------
+   access関連
+   ------------- */
+.access{
+    background-color: #f5f5f5;
+}
+
+h3.access__title {
+    padding-top: 60px;
+}
+
+
+.access__map{
+    /* width: 1200px; */
+    /* margin: auto; */
+}
+
+.access__map iframe{
+    width: 100%;
+}
+
+.access__form{
+    width: 650px;
+    margin: auto;
+    margin-top: 30px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.access__formtitle{
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.access__formtext{
+    width: 400px;
+    margin-top: 30px;
+}
+
+
+/* -------------
+   contact関連
+   ------------- */   
+
+.contact__text{
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+.formbox{
+    width: 640px;
+    margin: 70px auto 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.form__title {
+    width: 240px;
+    height: 52px;
+    padding: 18px 64px 18px 16px;
+    border-bottom: solid 1px #bfbfbf;
+    border-right: solid 1px #bfbfbf;
+    box-sizing: border-box;
+}
+
+.form__text{
+    width: 400px;
+    height: 52px;
+    border-bottom: solid 1px #bfbfbf;
+    box-sizing: border-box;
+}
+
+.form__parts{
+    box-sizing: border-box;
+    border: solid 1px #bfbfbf;
+    font-size: 16px;
+    width: 328px;
+    height: 36px;
+    margin: 8px;
+}
+
+.form__title.form-reason{
+    padding-top: 9px;
+}
+
+.form__title.form-motivation{
+    padding-top: 9px;
+}
+
+.form__title.form-detail{
+    padding-top: 9px;
+}
+
+.form-motivation{
+    height: 160px;
+}
+
+.form__text.form-motivation{
+    line-height: 40px;
+}
+
+.form-name{
+    border-top: solid 1px #bfbfbf;
+}
+
+.form-detail{
+    height: 136px;
+}
+
+.form__parts.form-detail{
+    height: 120px;
+}
+
+/* -------------
+   footer関連
+   ------------- */   
+
+.footer{
+    display: flex;
+    align-items: center;
+    height: 76px;
+    background-color: #707070;
+    margin-top: 140px;
+}
+
+.footer__text{
+    margin: auto;
+    color: white;
+}
